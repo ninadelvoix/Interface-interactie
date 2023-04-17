@@ -12,10 +12,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Nina Delvoix
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Mijn startniveau is: blauw.
 
 
 
@@ -31,9 +31,9 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
+  - De basis kennis van coderen goed leren te begrijpen
+  - Mijn idee goed om te zetten in code
+  - origineel idee bedenken voor een tijdlijn
   - ...
  
 </details>
