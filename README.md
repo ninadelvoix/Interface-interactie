@@ -26,7 +26,8 @@ Mijn startniveau is: Blauw.
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/Schets" alt="schets 1">
+ 
 
 
   ### Je ambitie: 
@@ -87,23 +88,36 @@ Mijn startniveau is: Blauw.
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Alle gebouwtjes waren dezelfde hoogte. Gezien het een tijdlijn is zal in elk jaar het gebouw een andere hoogte zijn geweest.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb de vijf Mc Drive gebouwtjes in verschillende hoogtes gamaakt.
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De achtergrond was eerst helemaal groen, deze wilde ik van groen naar blauw laten overlopen. Zo lijkt het alsof er gras en lucht achter de gebouwtjes zit.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Door middel van een "background-image: linear-gradient(
+    to top,
+    LimeGreen,
+    green 4em,
+    LightSkyBlue  4em,
+    DeepSkyBlue 
+     );"
+    heb ik de overloop kunnen verwerken. 
 
 
 
   ### Bevinding 3:
-  ...
+  Het is mijn doel om uiteindelijk een auto langs de huisje te laten rijden, voor de Mc drives langs. Hier miste nog een weg.
+
+  #### oplossing:
+  Ik heb een grijze weg toegevoegd voor de huisjes. Deze staat in de html als als een 'section'. In de css staat de weg als volgt in het bestand: section {
+  height:6em;
+  background-color: grey;
+} 
 
 </details>
 
