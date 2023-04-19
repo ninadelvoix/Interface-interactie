@@ -9,6 +9,7 @@
 
 body {
   margin:0;
+  background-color: lightblue;
 }
 
 button:not([disabled]) {
@@ -40,6 +41,57 @@ h1 {
 }
 
 
-/* ... */
+ol{
+  margin:0;
+  padding:0;
+  padding-left: 4em;
+  padding-right: 4em;
 
+  display:flex;
+  align-items: end;
+  gap:4em;
+
+  background-color: green;
+
+  overflow:scroll;
+}
+
+Li{
+  list-style: none;
+  width:8em;
+  height:8em;
+  flex-shrink: 0;
+  background-color: yellow;
+}
+
+/* eerste mcdrive - 19xx */
+li:nth-of-type(1) {
+  position: relative;
+  height:10em;
+  background-image: linear-gradient(
+    yellow 6em,
+     red 6em
+     );
+}
+
+/* raampje */
+li:nth-of-type(1) div {
+  width:4em;
+  height: 3em;
+  background-color: lightblue;
+
+  position: absolute; 
+  top: 3em;
+  left: 2em;
+}
+
+/* logo */
+li:nth-of-type(1) img:nth-of-type(1) {
+  
+}
+
+/* burger */
+li:nth-of-type(1) img:nth-of-type(2) {
+  
+}
 

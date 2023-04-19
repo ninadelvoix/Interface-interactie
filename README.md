@@ -31,10 +31,10 @@ Mijn startniveau is: Blauw.
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Een originele tijdlijn bedenken
+  - De juiste werkwijze leren om het concept om te zetten in een product
+  - De basis van coderen goed onder de knie krijgen
+  - 
  
 </details>
 
@@ -47,23 +47,34 @@ Mijn startniveau is: Blauw.
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  "Je kan een Mc Drive maken voor je tijdlijn."
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Zelf was ik nog niet op het idee gekomen om een door middel van eem Mc Drive de tijdlijn weer te geven, dit vind ik het een leuk en origineel idee. Naar anleiding van Maxima haar feedback zal ik nu een Mc Drive gaan maken voor de tijdlijn. 
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  "Kijk nog beter naar de Interface."
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Boven het raampje van de drive through zie je het uit een bepaald jaar het logo en de desbetreffende verpakkingen. Door middel van een knopje kan je door scrollen naar het volgende jaar. De afbeeldingen verschuiven als een soort carrousel(tekst en afbeeding(en)).
 
 
 
   ### Bevinding 3:
-  ...
+  "Er is nog geen progressive closure, kijk hier nog naar"
+  
+  #### oplossing:
+  Op het einde rijdt het autotje uit de Mc Drive waardoor je door hebt dat dit het einde is van de website.
+
+
+
+  ### Bevinding 4:
+  "Zorg dat je nog meer van het merk in je werk verwerkt."
+
+  #### oplossing:
+  Ik was zelf nog niet zo ver met het bedenken van mijn ontwerp. Ik ga de vormgeving zeker allemaal in de stijl en kleuren van de Mc Donalds doen. De kleuren die ik ga gebruiken zijn: rood, geel en groen. (tekst en afbeeding(en)).
 
 </details>
 
