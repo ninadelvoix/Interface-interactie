@@ -130,23 +130,37 @@ Mijn startniveau is: Blauw.
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Het lukte mij niet zelf de verpakkingen in het raampje te krijgen, in de div. De verpakking kwam alleen maar in de li, achtger het huisje. Dit heb ik geprobeerd om een image in de div te zetten in de css maar dit lukte niet.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Het was de bedoeling dat ik de image in de div, in de html zette in plaats van in de css. Als volgt heb ik het in de html gezet:
+  <div class="raam">
+  <img src="images/Verpakking 1960 ZA.png" alt="">
+  </div> 
+
+  In de CSS moest ik dan ook de image uit de div aanspreken -->
+  /* burger */
+li:nth-of-type(4) div img {
+  width: 100%;
+} 
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik wilde naast de Mc Drives een schaduw plaatsen zodat er wat meer diepte in de website zit. Dit lukte mij niet goed omdat ik even kwijt was welke getallen je achter box shadow moest zetten.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Onder de li:nth-of-type moet je een shadow plaatsen. Door om er een rgb achter te plaatsen met (0 0 0 / .5), zorg je ervoor dat de schaduw een beetje transparant wordt waardoor het wat realischtiser is.
+
+  box-shadow: .5em 0 .5em rgb(0 0 0 / .5);
 
 
 
   ### Bevinding 3:
-  ...
+  Om duidelijk te kunnen maken uit welk jaar het bepaalde logo en verpakking komt, wil ik het jaartal vermelden in de mcdrive zelf.
+
+  #### oplossing:
+  Om het jaartal in de Mcdrive te zetten moet ik in de html een h2 aanmaken voor in de li, hier staat ieder gebouwtje in. In elke li zet ik het volgende <h2>1940</h2>, voor elk gebouwtje een ander jaartal. In de css zet ik onder elke Mcdrive: li:nth-of-type(1) h2, daaronder de plaatsing.
 
 </details>
 
