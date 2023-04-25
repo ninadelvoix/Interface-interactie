@@ -13,7 +13,7 @@ body {
 }
 
 button:not([disabled]) {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 
@@ -38,7 +38,7 @@ button:not([disabled]) {
 
   --autoweg: grey;
 
-  --schaduwhuisjes: .5em 0 .5em rgb(0 0 0 / .5);
+  --schaduw-huisjes: box-shadow:.5em 0 .5em rgb(0 0 0 / .5);
 }
 
 
@@ -125,7 +125,7 @@ li:nth-of-type(1) div img {
 li:nth-of-type(1) > img:nth-of-type(1) {
   width: 55%;
   margin-left: 2em;
-  margin-top: 1em;
+  margin-top: .10em;
 }
 
 
@@ -171,6 +171,8 @@ li:nth-of-type(2) div img {
 li:nth-of-type(2) > img:nth-of-type(1) {
   width: 35%;
   margin-left: 2.5em;
+
+  
   }
 
   /* derde mcdrive - 19xx */
@@ -310,7 +312,10 @@ margin-top: 1em;
 
 }
 
-  
+/* paasei */
+
+
+
 
 /* DE WEG */
 section {

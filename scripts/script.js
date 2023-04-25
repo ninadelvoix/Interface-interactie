@@ -41,6 +41,7 @@ button1990.addEventListener("click", gaNaar1990);
 
 function gaNaar1990() {
     deAuto.className = "auto1990";
+    deOL.scrollLeft = 576;
 }
 
 var button2000 = document.querySelector("ol li:nth-of-type(5) button");
@@ -49,6 +50,7 @@ button2000.addEventListener("click", gaNaar2000);
 
 function gaNaar2000() {
     deAuto.className = "auto2000";
+    deOL.scrollLeft = 768;
 }
 
 /* informatie */
