@@ -20,6 +20,7 @@ button:not([disabled]) {
 
 
 
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -160,6 +161,7 @@ li:nth-of-type(2) h2 {
 
 li:nth-of-type(2) h2 button {
   font-family:'Times New Roman', Times, serif; font-style: italic;
+  
 }
 
 /* raampje */
@@ -330,8 +332,11 @@ margin-top: 1em;
 
 }
 
-/* paasei */
+/* clown */
+.clown {
+  width: 20em;
 
+}
 
 
 
@@ -340,7 +345,6 @@ section:nth-of-type(1) {
   position: relative;
   height:6em;
   background-color: var(--autoweg);
-  
 }
 
 section:nth-of-type(1) img {
@@ -422,14 +426,6 @@ section:nth-of-type(2) img:nth-of-type(2) {
   grid-row-end: 4;
   width:100%;
 }
-/* section:nth-of-type(2) img {
 
-  position: absolute;
-  width: 50%
-} */
-
-/* section:nth-of-type(2) img.info1960 {
-  content: url(../images/tekst-1960.png);
-} */
 
 

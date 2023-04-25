@@ -119,7 +119,7 @@ Mijn startniveau is: Blauw.
   #### oplossing:
   Ik had meerdere keren geprobeerd de cursor aan te passen maar dit lukte niet, ik kwam er later achter dat de afbeelding die ik wilde gebruiken veel te groot was waardoor het niet lukte. Uiteindelijk heb ik de afbeelding kleiner gemaakt waardoor het nu wel is gelukt, als je op een button wil klikken veranderd de cursor in een hamburgertje.
 
-  <img src="readme-images/cursor.png" alt="">
+  <img src="readme-images/cursor.jpg" alt="">
 
   
 
