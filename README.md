@@ -35,7 +35,6 @@ Mijn startniveau is: Blauw.
   - Een originele tijdlijn bedenken
   - De juiste werkwijze leren om het concept om te zetten in een product
   - De basis van coderen goed onder de knie krijgen
-  - 
  
 </details>
 
@@ -91,7 +90,9 @@ Mijn startniveau is: Blauw.
   Ik heb nog geen informatie bij de desbetreffende jaartallen.
 
   #### oplossing:
-  In Adobe XD zal ik een tekstvlak maken waarin het logo en de verpakkingen van het desbetreffende jaar nogmaals worden laten zien inclusief informatie over McDonalds over het desbetreffende jaar.
+  Ik heb eerst informatie opgezocht over de desbestreffende jaartallen, ik heb bedacht om onderin de website aan de linker kant nogmaals het logo en de verpakking te laten zien en aan de rechterkant de tekst. In de html is er een nieuwe section aangemaakt met een h2, dat is het jaartal. Een p, dit is de tekst. Tot slot twee images, het logo en de verpakkingen.
+
+  <img src="readme-images/informatie-tekst.png" alt="">
 
 
   ### Bevinding 2:
@@ -99,7 +100,10 @@ Mijn startniveau is: Blauw.
   
 
   #### oplossing:
-   
+   In het javascript moest er wat toegevoegd worden om de auto's heen en weer te laten rijden. Onder het stuk waardoor de auto's van veranderde moest het volgende geplaatst worden:
+   "deOL.scrollLeft = 192;"
+
+   De reden dat dit erbij geplaatst moest worden is omdat de huisjes, die in de OL staan, naar links verplaatst moeten worden als je op de knoppen klikt. Een huisje is 10 em breed, dit staat gelijk aan 192 pixels. Onder elke knop moet dus komen te staan dat de OL naar links moest opschuiven.
 
 
   ### Bevinding 3:
@@ -111,6 +115,11 @@ Mijn startniveau is: Blauw.
 
   ### Bevinding 4:
   Om een leuk extra element toe te voegen kan ik de cursor veranderen in een hamburger of milkshakes om deze zo goed bij het thema te laten passen.
+
+  #### oplossing:
+  Ik had meerdere keren geprobeerd de cursor aan te passen maar dit lukte niet, ik kwam er later achter dat de afbeelding die ik wilde gebruiken veel te groot was waardoor het niet lukte. Uiteindelijk heb ik de afbeelding kleiner gemaakt waardoor het nu wel is gelukt, als je op een button wil klikken veranderd de cursor in een hamburgertje.
+
+  <img src="readme-images/cursor.png" alt="">
 
   
 

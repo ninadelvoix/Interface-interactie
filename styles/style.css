@@ -13,7 +13,7 @@ body {
 }
 
 button:not([disabled]) {
-  cursor: pointer;
+  cursor: url("../images/burger-cursor.png") 55 15, auto;
 }
 
 
@@ -36,9 +36,17 @@ button:not([disabled]) {
 
   --raampjes: linear-gradient(midnightblue, skyblue);
 
+  --achtgerond-raampjes: lightblue;
+
   --autoweg: grey;
 
-  --schaduw-huisjes: box-shadow:.5em 0 .5em rgb(0 0 0 / .5);
+  --schaduw-huisjes: .5em 0 .5em rgb(0 0 0 / .5);
+
+  --kleurOL: green;
+
+  --kleurLI: yellow;
+
+  --schaduw-verpakking: drop-shadow(0 .1em .2em midnightblue);
 }
 
 
@@ -66,8 +74,8 @@ ol{
   align-items: end;
   gap:4em;
 
-  background-color:
-   green;
+  background-color: var(--kleurOL);
+  
 
    background-image: var(--achtergrond);
 
@@ -81,7 +89,9 @@ Li{
   width:8em;
   height:8em;
   flex-shrink: 0;
-  background-color: yellow;
+  background-color: var(--kleurLI);
+
+  text-align: center;
 }
 
 /* eerste mcdrive - 19xx */
@@ -90,7 +100,7 @@ li:nth-of-type(1) {
   height:10em;
   background-image: var(--huisje1);
 
-    box-shadow: .5em 0 .5em rgb(0 0 0 / .5);
+    box-shadow: var(--schaduw-huisjes)
 }
 
 li:nth-of-type(1) h2 {
@@ -99,15 +109,17 @@ li:nth-of-type(1) h2 {
   bottom: .5em;
   width: 100%;
   text-align: center;
-  font-family:'Courier New', Courier, monospace
+}
 
+li:nth-of-type(1) h2 button {
+  font-family:'Courier New', Courier, monospace;
 }
 
 /* raampje */
 li:nth-of-type(1) div {
   width:4em;
   height: 3em;
-  background-color: lightblue;
+  background-color: var(--achtgerond-raampjes);
   background-image: var(--raampjes);
 
   position: absolute; 
@@ -118,14 +130,14 @@ li:nth-of-type(1) div {
 /* burger */
 li:nth-of-type(1) div img {
   width: 100%;
-  filter:drop-shadow(0 .1em .2em midnightblue);
+  filter: var(--schaduw-verpakking);
 }
 
 /* logo */
 li:nth-of-type(1) > img:nth-of-type(1) {
   width: 55%;
-  margin-left: 2em;
-  margin-top: .10em;
+  /* margin-left: 2em; */
+  margin-top: .2em;
 }
 
 
@@ -135,7 +147,7 @@ li:nth-of-type(2) {
   height:8em;
   background-image: var(--huisje2);
 
-     box-shadow: .5em 0 .5em rgb(0 0 0 / .5);
+     box-shadow: var(--schaduw-huisjes);
 }
 
 li:nth-of-type(2) h2 {
@@ -144,16 +156,17 @@ li:nth-of-type(2) h2 {
   bottom: .5em;
   width: 100%;
   text-align: center;
-  font-family:'Times New Roman', Times, serif; font-style: italic;
-  
+}
 
+li:nth-of-type(2) h2 button {
+  font-family:'Times New Roman', Times, serif; font-style: italic;
 }
 
 /* raampje */
 li:nth-of-type(2) div {
   width:4em;
   height: 3em;
-  background-color: lightblue;
+  background-color: var(--achtgerond-raampjes);
   background-image: var(--raampjes);
 
   position: absolute; 
@@ -164,13 +177,13 @@ li:nth-of-type(2) div {
 /* burger */
 li:nth-of-type(2) div img {
   width: 100%;
-  filter:drop-shadow(0 .1em .2em midnightblue);
+  filter: var(--schaduw-verpakking);
 }
 
 /* logo */
 li:nth-of-type(2) > img:nth-of-type(1) {
   width: 35%;
-  margin-left: 2.5em;
+  /* margin-left: 2.5em; */
 
   
   }
@@ -181,7 +194,7 @@ li:nth-of-type(3) {
   height:9em;
   background-image: var(--huisje3);
 
-     box-shadow: .5em 0 .5em rgb(0 0 0 / .5);
+     box-shadow: var(--schaduw-huisjes);
 }
 
 li:nth-of-type(3) h2 {
@@ -190,15 +203,17 @@ li:nth-of-type(3) h2 {
   bottom: .5em;
   width: 100%;
   text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif
+}
 
+li:nth-of-type(3) h2 button {
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /* raampje */
 li:nth-of-type(3) div {
   width:4em;
   height: 3em;
-  background-color: lightblue;
+  background-color: var(--achtgerond-raampjes);
   background-image: var(--raampjes);
 
   position: absolute; 
@@ -209,13 +224,13 @@ li:nth-of-type(3) div {
 /* burger */
 li:nth-of-type(3) div img {
   width: 95%;
-  filter:drop-shadow(0 .1em .2em midnightblue);
+  filter: var(--schaduw-verpakking);
 }
 
 /* logo */
 li:nth-of-type(3) > img:nth-of-type(1) {
   width: 50%;
-  margin-left: 2em;
+  /* margin-left: 2em; */
   
   }
   
@@ -227,7 +242,7 @@ li:nth-of-type(4) {
   height:7em;
   background-image: var(--huisje4);
 
-     box-shadow: .5em 0 .5em rgb(0 0 0 / .5);
+     box-shadow: var(--schaduw-huisjes);
 }
 
 li:nth-of-type(4) h2 {
@@ -236,16 +251,17 @@ li:nth-of-type(4) h2 {
   bottom: .5em;
   width: 100%;
   text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
-  
+}
 
+li:nth-of-type(4) h2 button {
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 /* raampje */
 li:nth-of-type(4) div {
   width:4em;
   height: 3em;
-  background-color: lightblue;
+  background-color: var(--achtgerond-raampjes);
   background-image: var(--raampjes);
 
   position: absolute; 
@@ -256,14 +272,14 @@ li:nth-of-type(4) div {
 /* burger */
 li:nth-of-type(4) div img {
   width: 100%;
-  filter:drop-shadow(0 .1em .2em midnightblue);
+  filter: var(--schaduw-verpakking);
 }
 
 /* logo */
 li:nth-of-type(4) > img:nth-of-type(1) {
   width: 35%;
-  margin-left: 2.5em;
-  margin-top: -4em;
+  /* margin-left: 2.5em; */
+  margin-top: -4em; /* BAH - sorry */
   }
   
 
@@ -273,7 +289,7 @@ li:nth-of-type(5) {
   height:10em;
   background-image: var(--huisje5);
 
-     box-shadow: .5em 0 .5em rgb(0 0 0 / .5);
+     box-shadow: var(--schaduw-huisjes);
 }
 
 li:nth-of-type(5) h2 {
@@ -282,15 +298,17 @@ li:nth-of-type(5) h2 {
   bottom: .5em;
   width: 100%;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+li:nth-of-type(4) h2 button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* raampje */
 li:nth-of-type(5) div {
   width:4em;
   height: 3em;
-  background-color: lightblue;
+  background-color: var(--achtgerond-raampjes);
   background-image: var(--raampjes);
 
   position: absolute; 
@@ -300,14 +318,14 @@ li:nth-of-type(5) div {
 
 /* burger */
 li:nth-of-type(5) div img {
-  width: 130%;
-  filter:drop-shadow(0 .1em .2em midnightblue);
+  width: 70%;
+  filter: var(--schaduw-verpakking);
 }
 
 /* logo */
 li:nth-of-type(5) > img:nth-of-type(1) {
 width: 55%;
-margin-left: 2em;
+/* margin-left: 2em; */
 margin-top: 1em;
 
 }
@@ -318,50 +336,100 @@ margin-top: 1em;
 
 
 /* DE WEG */
-section {
+section:nth-of-type(1) {
   position: relative;
   height:6em;
   background-color: var(--autoweg);
   
 }
 
-section img {
+section:nth-of-type(1) img {
  position: absolute;
   width: 10em;
 
   left:calc(50vw - 5em);
 }
 
-section img.auto1940 {
+section:nth-of-type(1) img.auto1940 {
   content: url("../images/auto-1940.png");
 }
 
-section img.auto1960 {
+section:nth-of-type(1) img.auto1960 {
   content:url("../images/auto-1960.png");
 }
 
-section img.auto1975 {
+section:nth-of-type(1) img.auto1975 {
   content: url("../images/auto-1975.png");
 }
 
-section img.auto1990 {
+section:nth-of-type(1) img.auto1990 {
   content: url("../images/auto-1990.png");
 }
 
-section img.auto2000 {
+section:nth-of-type(1) img.auto2000 {
   content: url("../images/auto-2000.png");
 }
 
 /* informatie */
 
-footer img {
+section:nth-of-type(2) {
+  background-color:white ;
+  width:100%;
+  max-width: 32em;
+  margin:0 auto;
+  padding: 2em;
+  border-radius: 2em;
+  margin: 2em auto;
+
+  /* grid parent */
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: max-content max-content max-content;
+  gap: 1em;
+}
+
+/* grid kinderen */
+section:nth-of-type(2) h2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section:nth-of-type(2) p {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  margin: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section:nth-of-type(2) img:nth-of-type(1) {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  width:100%;
+}
+
+section:nth-of-type(2) img:nth-of-type(2) {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width:100%;
+}
+/* section:nth-of-type(2) img {
 
   position: absolute;
   width: 50%
-}
+} */
 
-footer img.info1960 {
+/* section:nth-of-type(2) img.info1960 {
   content: url(../images/tekst-1960.png);
-}
+} */
 
 
