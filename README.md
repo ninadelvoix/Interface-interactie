@@ -88,36 +88,31 @@ Mijn startniveau is: Blauw.
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Alle gebouwtjes waren dezelfde hoogte. Gezien het een tijdlijn is zal in elk jaar het gebouw een andere hoogte zijn geweest.
+  Ik heb nog geen informatie bij de desbetreffende jaartallen.
 
   #### oplossing:
-  Ik heb de vijf Mc Drive gebouwtjes in verschillende hoogtes gamaakt.
-
+  In Adobe XD zal ik een tekstvlak maken waarin het logo en de verpakkingen van het desbetreffende jaar nogmaals worden laten zien inclusief informatie over McDonalds over het desbetreffende jaar.
 
 
   ### Bevinding 2:
-  De achtergrond was eerst helemaal groen, deze wilde ik van groen naar blauw laten overlopen. Zo lijkt het alsof er gras en lucht achter de gebouwtjes zit.
+  De auto's rijden nog niet zelf van jaartal naar jaartal.
+  
 
   #### oplossing:
-  Door middel van een "background-image: linear-gradient(
-    to top,
-    LimeGreen,
-    green 4em,
-    LightSkyBlue  4em,
-    DeepSkyBlue 
-     );"
-    heb ik de overloop kunnen verwerken. 
-
+   
 
 
   ### Bevinding 3:
-  Het is mijn doel om uiteindelijk een auto langs de huisje te laten rijden, voor de Mc drives langs. Hier miste nog een weg.
+  Ik kan nog wat elementen toevoegen in het ontwerp zoals; bomen, wolken, streepjes op de weg, rook uit de auto's.
+
 
   #### oplossing:
-  Ik heb een grijze weg toegevoegd voor de huisjes. Deze staat in de html als als een 'section'. In de css staat de weg als volgt in het bestand: section {
-  height:6em;
-  background-color: grey;
-} 
+
+
+  ### Bevinding 4:
+  Om een leuk extra element toe te voegen kan ik de cursor veranderen in een hamburger of milkshakes om deze zo goed bij het thema te laten passen.
+
+  
 
 </details>
 

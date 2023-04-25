@@ -37,6 +37,8 @@ button:not([disabled]) {
   --raampjes: linear-gradient(midnightblue, skyblue);
 
   --autoweg: grey;
+
+  --schaduwhuisjes: .5em 0 .5em rgb(0 0 0 / .5);
 }
 
 
@@ -69,7 +71,9 @@ ol{
 
    background-image: var(--achtergrond);
 
-  overflow:scroll;
+  overflow:hidden;
+
+  scroll-behavior: smooth;
 }
 
 Li{
@@ -338,3 +342,21 @@ section img.auto1975 {
 section img.auto1990 {
   content: url("../images/auto-1990.png");
 }
+
+section img.auto2000 {
+  content: url("../images/auto-2000.png");
+}
+
+/* informatie */
+
+footer img {
+
+  position: absolute;
+  width: 50%
+}
+
+footer img.info1960 {
+  content: url(../images/tekst-1960.png);
+}
+
+
