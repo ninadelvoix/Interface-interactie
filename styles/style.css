@@ -12,11 +12,23 @@ body {
   background-color: lightblue;
 }
 
-button:not([disabled]) {
+button {
   cursor: url("../images/burger-cursor.png") 55 15, auto;
+  border-radius: 1em;
+  width: 5em;
 }
 
+button:hover {
+  background-color: red;
+}
 
+button:focus {
+  background-color: green;
+}
+
+button:active {
+  scale:2;
+}
 
 
 
@@ -345,6 +357,39 @@ section:nth-of-type(1) {
   position: relative;
   height:6em;
   background-color: var(--autoweg);
+
+  background-image: repeating-linear-gradient( 
+    to right,
+    transparent 0 3em,
+    white 3em 5em,
+    transparent 5em 8em
+  );
+
+  background-size: calc(100vw + 50em) .25em;
+  background-repeat: no-repeat;
+  background-position: 0em center;
+
+  transition:.37s ease-in-out;
+}
+
+section:nth-of-type(1).weg1940 {
+  background-position: 0em center;
+}
+
+section:nth-of-type(1).weg1960 {
+  background-position: -12em center;
+}
+
+section:nth-of-type(1).weg1975 {
+  background-position: -24em center;
+}
+
+section:nth-of-type(1).weg1990 {
+  background-position: -36em center;
+}
+
+section:nth-of-type(1).weg2000 {
+  background-position: -48em center;
 }
 
 section:nth-of-type(1) img {

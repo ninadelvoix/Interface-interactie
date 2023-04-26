@@ -26,7 +26,9 @@ Mijn startniveau is: Blauw.
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/Schets" alt="schets 1">
+  <img src="readme-images/schets-1.jpg" alt="schets 1">
+  <img src="readme-images/schets-2.jpg" alt="schets 2">
+  <img src="readme-images/schets-3.jpg" alt="schets 3">
  
 
 
@@ -84,56 +86,8 @@ Mijn startniveau is: Blauw.
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-  
-  ### Bevinding 1:
-  Ik heb nog geen informatie bij de desbetreffende jaartallen.
 
-  #### oplossing:
-  Ik heb eerst informatie opgezocht over de desbestreffende jaartallen, ik heb bedacht om onderin de website aan de linker kant nogmaals het logo en de verpakking te laten zien en aan de rechterkant de tekst. In de html is er een nieuwe section aangemaakt met een h2, dat is het jaartal. Een p, dit is de tekst. Tot slot twee images, het logo en de verpakkingen.
-
-  <img src="readme-images/informatie-tekst.png" alt="">
-
-
-  ### Bevinding 2:
-  De auto's rijden nog niet zelf van jaartal naar jaartal.
-  
-
-  #### oplossing:
-   In het javascript moest er wat toegevoegd worden om de auto's heen en weer te laten rijden. Onder het stuk waardoor de auto's van veranderde moest het volgende geplaatst worden:
-   "deOL.scrollLeft = 192;"
-
-   De reden dat dit erbij geplaatst moest worden is omdat de huisjes, die in de OL staan, naar links verplaatst moeten worden als je op de knoppen klikt. Een huisje is 10 em breed, dit staat gelijk aan 192 pixels. Onder elke knop moet dus komen te staan dat de OL naar links moest opschuiven.
-
-
-  ### Bevinding 3:
-  Ik kan nog wat elementen toevoegen in het ontwerp zoals; bomen, wolken, streepjes op de weg, rook uit de auto's.
-
-
-  #### oplossing:
-
-
-  ### Bevinding 4:
-  Om een leuk extra element toe te voegen kan ik de cursor veranderen in een hamburger of milkshakes om deze zo goed bij het thema te laten passen.
-
-  #### oplossing:
-  Ik had meerdere keren geprobeerd de cursor aan te passen maar dit lukte niet, ik kwam er later achter dat de afbeelding die ik wilde gebruiken veel te groot was waardoor het niet lukte. Uiteindelijk heb ik de afbeelding kleiner gemaakt waardoor het nu wel is gelukt, als je op een button wil klikken veranderd de cursor in een hamburgertje.
-
-  <img src="readme-images/cursor.jpg" alt="">
-
-  
-
-</details>
-
-
-
-
-## Voortgang/Feedback 3
-
-<details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-  
-  ### Bevinding 1:
+### Bevinding 1:
   Het lukte mij niet zelf de verpakkingen in het raampje te krijgen, in de div. De verpakking kwam alleen maar in de li, achtger het huisje. Dit heb ik geprobeerd om een image in de div te zetten in de css maar dit lukte niet.
 
   #### oplossing:
@@ -148,8 +102,6 @@ li:nth-of-type(4) div img {
   width: 100%;
 } 
 
-
-
   ### Bevinding 2:
   Ik wilde naast de Mc Drives een schaduw plaatsen zodat er wat meer diepte in de website zit. Dit lukte mij niet goed omdat ik even kwijt was welke getallen je achter box shadow moest zetten.
 
@@ -158,18 +110,70 @@ li:nth-of-type(4) div img {
 
   box-shadow: .5em 0 .5em rgb(0 0 0 / .5);
 
-
-
   ### Bevinding 3:
   Om duidelijk te kunnen maken uit welk jaar het bepaalde logo en verpakking komt, wil ik het jaartal vermelden in de mcdrive zelf.
 
   #### oplossing:
   Om het jaartal in de Mcdrive te zetten moet ik in de html een h2 aanmaken voor in de li, hier staat ieder gebouwtje in. In elke li zet ik het volgende <h2>1940</h2>, voor elk gebouwtje een ander jaartal. In de css zet ik onder elke Mcdrive: li:nth-of-type(1) h2, daaronder de plaatsing.
+  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  
+  ### Bevinding 4:
+  Ik heb nog geen informatie bij de desbetreffende jaartallen.
+
+  #### oplossing:
+  Ik heb eerst informatie opgezocht over de desbestreffende jaartallen, ik heb bedacht om onderin de website aan de linker kant nogmaals het logo en de verpakking te laten zien en aan de rechterkant de tekst. In de html is er een nieuwe section aangemaakt met een h2, dat is het jaartal. Een p, dit is de tekst. Tot slot twee images, het logo en de verpakkingen.
+
+  <img src="readme-images/informatie-tekst.png" alt="">
+
+
+  ### Bevinding 5:
+  De auto's rijden nog niet zelf van jaartal naar jaartal.
+  
+
+  #### oplossing:
+   In het javascript moest er wat toegevoegd worden om de auto's heen en weer te laten rijden. Onder het stuk waardoor de auto's van veranderde moest het volgende geplaatst worden:
+   "deOL.scrollLeft = 192;"
+
+   De reden dat dit erbij geplaatst moest worden is omdat de huisjes, die in de OL staan, naar links verplaatst moeten worden als je op de knoppen klikt. Een huisje is 10 em breed, dit staat gelijk aan 192 pixels. Onder elke knop moet dus komen te staan dat de OL naar links moest opschuiven.
+
+
+  ### Bevinding 6:
+  Ik kan nog wat elementen toevoegen in het ontwerp zoals; bomen, wolken, streepjes op de weg, rook uit de auto's.
+
+
+  #### oplossing:
+
+
+  ### Bevinding 7:
+  Om een leuk extra element toe te voegen kan ik de cursor veranderen in een hamburger of milkshakes om deze zo goed bij het thema te laten passen.
+
+  #### oplossing:
+  Ik had meerdere keren geprobeerd de cursor aan te passen maar dit lukte niet, ik kwam er later achter dat de afbeelding die ik wilde gebruiken veel te groot was waardoor het niet lukte. Uiteindelijk heb ik de afbeelding kleiner gemaakt waardoor het nu wel is gelukt, als je op een button wil klikken veranderd de cursor in een hamburgertje.
+
+  <img src="readme-images/cursor.jpg" alt="">
+
+  ### Bevinding 8:
+  Er kan nog niet getabd worden met het toetsenbord.
+
+  #### oplossing:
+
 
 </details>
 
 
+## Voortgang/Feedback 3 
 
+<details>
+  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+
+### Bevinding 1:
+
+De clown aan het einde van de weg past niet helemaal
+
+#### oplossing:
+
+
+</details>
 
 ## Reflectie
 
