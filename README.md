@@ -88,19 +88,20 @@ Mijn startniveau is: Blauw.
 <details>
 
 ### Bevinding 1:
-  Het lukte mij niet zelf de verpakkingen in het raampje te krijgen, in de div. De verpakking kwam alleen maar in de li, achtger het huisje. Dit heb ik geprobeerd om een image in de div te zetten in de css maar dit lukte niet.
+  Het lukte mij niet zelf de verpakkingen in het raampje te krijgen, in de div. De verpakking kwam alleen maar in de li, achtger het huisje. Dit heb ik geprobeerd om een image in de div te zetten in de css maar dit lukte niet. Voor:
+  <img src="readme-images/probleem-raam.png" alt="">
 
   #### oplossing:
-  Het was de bedoeling dat ik de image in de div, in de html zette in plaats van in de css. Als volgt heb ik het in de html gezet:
-  <div class="raam">
-  <img src="images/Verpakking 1960 ZA.png" alt="">
-  </div> 
+  Het was de bedoeling dat ik de image in de div, in de html zette in plaats van in de css. 
 
   In de CSS moest ik dan ook de image uit de div aanspreken -->
   /* burger */
 li:nth-of-type(4) div img {
   width: 100%;
 } 
+
+  Na:
+  <img src="readme-images/oplossing-raam.png" alt="">
 
   ### Bevinding 2:
   Ik wilde naast de Mc Drives een schaduw plaatsen zodat er wat meer diepte in de website zit. Dit lukte mij niet goed omdat ik even kwijt was welke getallen je achter box shadow moest zetten.
@@ -110,12 +111,20 @@ li:nth-of-type(4) div img {
 
   box-shadow: .5em 0 .5em rgb(0 0 0 / .5);
 
+  Voor:
+  <img src="readme-images/schaduw-huisje-voor.png" alt="">
+
+  Na:
+  <img src="readme-images/schaduw-huisje-na.png" alt="">
+
+
   ### Bevinding 3:
   Om duidelijk te kunnen maken uit welk jaar het bepaalde logo en verpakking komt, wil ik het jaartal vermelden in de mcdrive zelf.
 
   #### oplossing:
   Om het jaartal in de Mcdrive te zetten moet ik in de html een h2 aanmaken voor in de li, hier staat ieder gebouwtje in. In elke li zet ik het volgende <h2>1940</h2>, voor elk gebouwtje een ander jaartal. In de css zet ik onder elke Mcdrive: li:nth-of-type(1) h2, daaronder de plaatsing.
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+
+  <img src="readme-images/jaartal-huisje.png" alt="">
   
   ### Bevinding 4:
   Ik heb nog geen informatie bij de desbetreffende jaartallen.
