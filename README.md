@@ -85,7 +85,9 @@ Mijn startniveau is: Blauw.
 
 ## Voortgang/Feedback 2
 
+
 <details>
+  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
 ### Bevinding 1:
   Het lukte mij niet zelf de verpakkingen in het raampje te krijgen, in de div. De verpakking kwam alleen maar in de li, achtger het huisje. Dit heb ik geprobeerd om een image in de div te zetten in de css maar dit lukte niet. Voor:
@@ -122,7 +124,7 @@ li:nth-of-type(4) div img {
   Om duidelijk te kunnen maken uit welk jaar het bepaalde logo en verpakking komt, wil ik het jaartal vermelden in de mcdrive zelf.
 
   #### oplossing:
-  Om het jaartal in de Mcdrive te zetten moet ik in de html een h2 aanmaken voor in de li, hier staat ieder gebouwtje in. In elke li zet ik het volgende <h2>1940</h2>, voor elk gebouwtje een ander jaartal. In de css zet ik onder elke Mcdrive: li:nth-of-type(1) h2, daaronder de plaatsing.
+  Om het jaartal in de Mcdrive te zetten moet ik in de html een h2 aanmaken voor in de li, hier staat ieder gebouwtje in. In elke li zet ik het volgende het jaartal tussen de h2, voor elk gebouwtje een ander jaartal. In de css zet ik onder elke Mcdrive: li:nth-of-type(1) h2, daaronder de plaatsing.
 
   <img src="readme-images/jaartal-huisje.png" alt="">
   
@@ -147,24 +149,12 @@ li:nth-of-type(4) div img {
 
 
   ### Bevinding 6:
-  Ik kan nog wat elementen toevoegen in het ontwerp zoals; bomen, wolken, streepjes op de weg, rook uit de auto's.
-
-
-  #### oplossing:
-
-
-  ### Bevinding 7:
   Om een leuk extra element toe te voegen kan ik de cursor veranderen in een hamburger of milkshakes om deze zo goed bij het thema te laten passen.
 
   #### oplossing:
   Ik had meerdere keren geprobeerd de cursor aan te passen maar dit lukte niet, ik kwam er later achter dat de afbeelding die ik wilde gebruiken veel te groot was waardoor het niet lukte. Uiteindelijk heb ik de afbeelding kleiner gemaakt waardoor het nu wel is gelukt, als je op een button wil klikken veranderd de cursor in een hamburgertje.
 
   <img src="readme-images/cursor.jpg" alt="">
-
-  ### Bevinding 8:
-  Er kan nog niet getabd worden met het toetsenbord.
-
-  #### oplossing:
 
 
 </details>
@@ -177,9 +167,50 @@ li:nth-of-type(4) div img {
 
 ### Bevinding 1:
 
+Gezien de hele website "cartoon-achtig" is gemaakt, passen de hoekige gebouwtjes en raampjes niet helemaal in het design. 
+
+#### oplossing:
+
+Ik heb ervoor gekozen om de bovenkant van de gebouwtjes en de raampjes iets af te ronden. Dit heb ik gedaan door de border radius aan te passen naar 11% 14% 10% 10% / 14% 11% 0% 0% ;. Ik heb deze pecentages gehaald van de website https://9elements.github.io/fancy-border-radius/ 
+
+<img src="readme-images/afrondingen.png" alt="">
+
+### Bevinding 2:
+
 De clown aan het einde van de weg past niet helemaal
 
 #### oplossing:
+
+linear-gradient(midnightblue, skyblue);
+
+### Bevinding 3:
+
+De achtegrond van de raampjes matchte niet goed bij de rest van het design, er was te veel kleur en hierdoor waren de verpakkingen in de raampjes ook niet goed te zien.
+
+#### oplossing:
+
+Ik heb de achtergrond van de raampjes een lichtgrijze kleur gegeven, hierdoor wordt je niet afgeleid door de achtergrond kleur en zijn de verpakkingen goed te zien.
+
+<img src="readme-images/aangepaste-raamkleur.png" alt="">
+
+
+### Bevinding 4:
+
+De buttons paste nog niet helemaal in het design. De button werd rood als je er op klikte en groen als je tabde. De scale werd 2 als je er op klikte.
+
+
+#### oplossing:
+
+De buttons zijn nu lichtgrijs als je er niet op klikt, dit is dezelfde kleur als de achtergrond van de raampjes, zo ontstaat er een geheel in het design.
+
+Ik heb de kleur van de buttons donkergrijs gemaakt op het moment dat je met je muis erover gaat en als je tabt. Ik heb voor beide dezelfde kleur gekozen omdat je door beide handelingen dezelfde actie verricht, zo is duidelijk dat je de button selecteert. Ik heb voor de kleur donker grijs gekozen omdat deze beter in het design past en er al veel velle kleuren omheen zitten. De knoppen heb ik ook iets gorter gemaakt waardoor de cijfers erin beter te zien zijn.
+
+Voor:
+<img src="readme-images/buttons-voor.png" alt="">
+
+Na:
+<img src="readme-images/buttons-na.png" alt="">
+
 
 
 </details>
