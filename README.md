@@ -177,11 +177,17 @@ Ik heb ervoor gekozen om de bovenkant van de gebouwtjes en de raampjes iets af t
 
 ### Bevinding 2:
 
-De clown aan het einde van de weg past niet helemaal
+De clown aan het einde van de weg is helemaal niet in proportie vergeleken de de rest van het design.
 
 #### oplossing:
 
-linear-gradient(midnightblue, skyblue);
+Ik heb de grootte en de plaats van de clown aangepast. Zo lijkt het alsof deze een normale grootte heeft en alle auto's uitzwaait die de Mcdrive verlaten.
+
+Voor:
+<img src="readme-images/clown-voor.png" alt="">
+
+Na:
+<img src="readme-images/clown-na.png" alt="">
 
 ### Bevinding 3:
 
@@ -211,6 +217,20 @@ Voor:
 Na:
 <img src="readme-images/buttons-na.png" alt="">
 
+### Bevinding 5:
+
+De auto uit het jaar 2000's paste niet helemaal in het design. Alle auto's uit de andere jaartallen zijn cartoon achtig weergegeven maar die uit het laatste jaartal niet.
+
+
+#### oplossing:
+
+Ik heb via google een nieuwe auto gevonden die beter past bij alle andere auto's. Ik heb de afbeelding gewijzigd in het css bestand.
+
+Voor:
+<img src="readme-images/auto2000-voor.png" alt="">
+
+Na:
+<img src="readme-images/auto2000-na.png" alt="">
 
 
 </details>
@@ -221,20 +241,33 @@ Na:
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/eind-1.png" alt="">
+  <img src="readme-images/eind-2.png" alt="">
+  <img src="readme-images/eind-3.png" alt="">
+  <img src="readme-images/eind-4.png" alt="">
+  <img src="readme-images/eind-5.png" alt="">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb het afgelopen vak super veel geleerd, voordat ik aan dit vak begon wist ik helemaal niks van coderen. Ik wist niet eens wat html, css en javascript inhield. Je kan dus eigenlijk zeggen dat van alles wat ik heb gemaakt in mijn website, heb geleerd de afgelopen periode.
+
+  Ik heb vooral geleerd hoe je iets in het html bestand moet zetten om deze vervolgens te kunnen stlylen in hett css bestand.
+
+  html:
+  <img src="readme-images/html.png" alt="">
+
+  css:
+  <img src="readme-images/css.png" alt="">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
-</details>
+  Als laatste wilde ik nog wat wolkjes toevoegen om het "wereldje nog wat realisticher te maken. Ik ben hier mee bezig geweest na alle lessen waardoor ik geen hulp meer kon vragen, ik kreeg het wolkje niet goed gepositioneerd en heb uiteindelijk besloten de wolkjes maar achterwegen te laten.
+
+  <img src="readme-images/wolk.png" alt="">
 
 
 
@@ -244,10 +277,6 @@ Na:
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+Ik heb voor de codes geen bronnen gebruikt, ik heb alles van mijn docent of medestudenten geleerd. Ik heb als enige bron de website https://9elements.github.io/fancy-border-radius/ gebruikt om de rondingen van mijn Mcdrives en de raampjes te berekenen.
 
 </details>

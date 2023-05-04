@@ -95,16 +95,6 @@ function gaNaar2000() {
     infoImg2.src = "images/verpakking-2005-za.png";
 }
 
-/* informatie */
 
-// var tekstinfo = document.querySelector("footer img");
-
-// var button1960 = document.querySelector("ol li:nth-of-type(2) button");
-
-// button1960.addEventListener("click", gaNaar1960);
-
-// function gaNaar1960() {
-//     tekstinfo.className = "auto1960";
-// }
 
 
