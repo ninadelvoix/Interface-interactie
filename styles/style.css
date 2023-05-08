@@ -1,3 +1,15 @@
+
+
+
+@font-face {
+  font-family: "edo";
+  src: url('../fonts/edo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 /*************/
 /* CSS RESET */
 /*************/
@@ -72,17 +84,21 @@ button:active {
 /********************/
 /* ALGEMENE STYLING */
 /********************/
+header {
+  position: absolute;
+}
 
 h1 {
   color:gold;
-  font-family: Arial, Helvetica, sans-serif;
   text-shadow: .2em .2em .5em black;
+  font-family: "edo";
 }
 
 
 ol{
   margin:0;
   padding:0;
+  padding-top: 4em;
   padding-left: calc(50vw - 4em);
   padding-right: calc(50vw - 4em);
   
